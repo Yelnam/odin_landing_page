@@ -1,71 +1,172 @@
 /* styles.css */
 
+* {
+    padding: 0;
+    margin: 0;
+}
+
+head {
+    font-family: "Roboto", Arial;
+}
+    
+body {
+    font-family: "Roboto", Arial;
+}
+    
+footer {
+    font-family: "Roboto", Arial;
+}
+
+
+.box-one{
+    background-color: #1F2937;
+    padding-left: 500;
+    padding-right: 500;
+    padding-top: 25;
+    padding-bottom: 25;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box-two{
+    background-color: #1F2937;
+    padding-left: 500;
+    padding-right: 500;
+    padding-top: 100;
+    padding-bottom: 100;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box-three{
+    background-color: #ffffff;
+    padding-left: 500;
+    padding-right: 500;
+    padding-top: 100;
+    padding-bottom: 100;
+}
+
+.box-four{
+    background-color: #E5E7EB;
+    padding-left: 675;
+    padding-right: 675;
+    padding-top: 100;
+    padding-bottom: 100;
+}
+
+.box-five{
+    background-color: #ffffff;
+    padding-left: 500;
+    padding-right: 500;
+    padding-top: 100;
+    padding-bottom: 100;
+}
+
+.box-six{
+    background-color: #1F2937;
+    padding-left: 500;
+    padding-right: 500;
+    padding-top: 100;
+    padding-bottom: 100;
+}
+
+
 .header.logo {
     color: #F9FAF8;
-    background-color: #1F2937;
     font-size: 24px;
-    font: Arial;
+    font-style: bold;
 }
 
 .header.link {
     color: #F9FAF8;
-    background-color: #1F2937;
     font-size: 18px;
-    font: Helvetica;
+}
+
+.header.link li {
+    display: inline-block;
+    padding: 0 20;
 }
 
 .hero.main {
     color: #F9FAF8;
-    background-color: #1F2937;
     font-size: 48px;
     font-style: bold;
-    font: Helvetica;
+    margin: 15px;
 }
 
 .hero.secondary {
     color: #F9FAF8;
-    background-color: #1F2937;
     font-size: 14px;
-    font: Helvetica;
+    margin: 15px;
 }
 
-.button {
+button {
     color: #ffffff;
     background-color: #3882F6;
     font-size: 14px;
+    padding: 5px;
+    margin: 15px;
+    border-radius: 10px;
 }
 
+.box-two.image{
+    margin: 15px;
+}
 
 .header.info {
     color: #111111;
-    background-color: #ffffff;
     font-size: 36px;
-    font-style: bold;
-    font: Helvetica;
+    text-align: center;
+}
+
+.img_and_sub{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 100;
+    padding-bottom: 100;
+}
+
+.img_and_sub vert{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .image.subtext {
     color: #555555;
     background-color: #ffffff;
     font-size: 10px;
-    font: Helvetica;
+    width: 100;
+    text-align: center;
 }
 
 .text.quote {
     color: #111111;
-    background-color: #E5E7EB;
     font-size: 36px;
-    font-style: light;
     font-style: italic;
-    font: Helvetica;
 }
 
 .text.attribution {
     color: #111111;
-    background-color: #E5E7EB;
     font-size: 18px;
-    font-style: bold;
-    font: Helvetica;
+    text-align: right;
+}
+
+.box_five_container{
+    height:140px;
+    background-color: #3882F6;
+    border-radius: 250px;
+    padding-left: 500;
+    padding-right: 500;
+    padding-top: 100;
+    padding-bottom: 100;
+}
+
+.cta.text{
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    padding: 15;
 }
 
 .cta {
@@ -78,7 +179,7 @@
     font-style: bold;
 }
 
-.cta.text {
+.cta.body {
     font-size: 14px;
 }
 
@@ -86,5 +187,5 @@
     color: #F9FAF8;
     background-color: #1F2937;
     font-size: 14px;
-    font: Helvetica;
+    text-align: center;
 }
