@@ -1,2 +1,5 @@
 # odin_landing_page
-Project Odin - Landing page project
+Odin Project- Landing page project
+
+Landing page HTML with CSS
+From Odin Project landing page project from end of intro to HTML, CSS, Flexbox modules
